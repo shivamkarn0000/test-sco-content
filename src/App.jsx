@@ -22,7 +22,7 @@ function App() {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title data-react-helmet="true">React portfolio website !!</title> 
           <meta name="google-site-verification" content="HhY359LSS9CimD2Q8x1jCve7xGLTsGY6HargVr5yJwM" />
-          <meta data-react-helmet="true" name="desccription" content"MY OTHER PAGE CONTENT"/>
+          <meta data-react-helmet="true" name="desccription" content="MY OTHER PAGE CONTENT"/>
      
         </Helmet>
         <div className="app scrollbar-hidden">
