@@ -1,0 +1,103 @@
+@media screen and (max-width: 1123px) {
+  
+    .portfolio {
+        height: calc(100vh - 70px);
+        width: 100%;
+        scroll-snap-align: start;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .portfolio-h1 {
+        font-size: 40px;
+  
+    }
+
+    .portfolio-ul {
+        /* border: 4px solid yellow; */
+        padding: 0px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+
+    .portfolio-ul li {
+        font-size: 20px;
+        margin-right: 25px;
+        padding-bottom: 20px;
+        cursor: pointer;
+        
+    }
+
+    .portfolio-ul .active{
+      
+    }
+    
+}
+
+@media screen and (max-width: 758px){
+
+    .portfolio-h1 {
+        font-size: 36px;
+  
+    }
+
+    .portfolio-ul li {
+        /* border: 1px solid silver; */
+        font-size: 20px;
+        margin-right: 25px;
+        padding-bottom: 20px;
+        cursor: pointer;
+        
+    }
+
+}
+
+@media screen and (max-width: 605px){
+
+    .portfolio-ul {
+        padding-bottom: 10px;
+    }
+    .portfolio-ul li {
+        margin-right: 5px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 523px){
+    .portfolio-ul {
+        padding-bottom: 20px;
+    }
+    .portfolio-ul li {
+        padding-bottom: 24px;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 425px){
+   
+    .portfolio-ul li {
+        margin-right: 3px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 359px){
+    
+    .portfolio-ul li {
+        margin-right: 1px;
+        font-size: 11px;
+        padding-bottom: 20px;
+        
+    }
+}
+@media screen and (max-width: 290px){
+    
+    .portfolio-ul li {
+        /* margin-right: 1px; */
+        font-size: 10px;
+        padding-bottom: 20px;
+        
+    }
+}
+

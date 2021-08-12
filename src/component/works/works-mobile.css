@@ -1,0 +1,107 @@
+@media screen and (max-width:1269px) {
+    .works {
+        /* border: 3px solid rgb(15, 197, 221); */
+        height: calc(100vh - 70px);
+        width: 100vw;
+        scroll-snap-align:start;
+        background-color: rgb(249 245 246);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .slider-works {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        position: unset;
+        margin-left: 0px;
+        left: 0vh;
+    }
+    .containerlist-works {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px 0;
+        width: 70vh;
+    }
+    .item-works {
+        width: 100%;
+        margin: 0px 0px;
+        height: 110%;
+    }
+    .workarrow-left {
+        visibility: hidden;
+    }
+    .workarrow-right {
+        visibility: hidden;
+    }
+    .left-works h2 {
+        padding-bottom: 10px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .left-works p {
+        width: 100px;
+        font-size: 12px;
+        margin-left: 0px;
+        padding-right: 10px;
+    }
+    .left-works span {
+        padding-bottom: 7px;
+        margin-bottom: 15px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .right-img {
+        width: 100%;
+        height: 100%;
+    }
+    .right-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .activeclass {
+        margin-bottom: -10px;
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .img-works {
+        width: 40px;
+        height: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .left-works {
+        flex: 5;
+    }
+    .right-works {
+        flex: 5;
+    }
+}
+
+@media screen and (max-width:596px) {
+    .containerlist-works {
+        margin: 6px 0;
+        width: 40vh;
+    }
+    .item-works {
+        width: 400px;
+        margin: 20px 0px;
+        height: 100%;
+    }
+    .slider-works {
+        height: 95%;
+    }
+    .left-works h2 {
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .worksactive {
+       margin-top: 63px
+    }
+};

@@ -1,0 +1,28 @@
+@media screen and (max-width: 795px) {
+  .intro {
+    background-color: white;
+    height: calc(100vh - 70px);
+    width: 100%;
+    scroll-snap-align: start;
+    display: flex;
+}
+  .intro {
+    flex-direction: column;
+  }
+  .h1-intro {
+    font-size: 50px;
+    margin: 8px 0;
+  }
+  .h2-intro {
+    font-size: 27px;
+  }
+  .h3-intro {
+    font-size: 22px;
+  }
+  .container-img {
+    position: absolute;
+    top: 89%;
+    left: 45%;
+  }
+}
+

@@ -1,0 +1,17 @@
+@media screen and (max-width: 747px)
+ {
+
+    .container-portfolio{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+   
+    .portfolio-h1 {
+      font-size: 50px;
+      margin-top: 60px;
+      padding-bottom: 40px;
+  }
+  
+  }
+

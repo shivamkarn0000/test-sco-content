@@ -1,0 +1,100 @@
+@media screen and (max-width:1230px) {
+    .testimonials {
+        height: calc(100vh - 70px);
+        width: 100%;
+        scroll-snap-align: start;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow-y: hidden;
+        /* border: 3px solied yellow; */
+    }
+    
+    .testimonials {
+        flex-direction: column;
+    }
+
+    
+.testimonials-h1 {
+    position: unset;
+    margin-bottom: 19px;
+    margin-top: 0;
+    margin-top: -4px;
+    top: 0;
+    margin-top: 0;
+  
+}
+
+.testimonials-maincontainer{
+    flex-direction: column;
+    margin-top: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-container{
+
+    width: 336px;
+    height: 189px;
+    
+}
+
+.testimonials-center p {
+    
+    margin: 20px 20px;
+    padding: 0;
+  
+}
+
+.testimonials-section {
+   
+    height: 169px;
+    width: 369px;
+    margin: -6px 0px;
+  
+}
+
+.t-logo {
+   
+    height: 40px;
+    width: 45px;
+  
+}
+
+.testimonials-center p {
+    margin: 10px 7px;
+  
+}
+
+.testimonials-center p {
+   
+    font-size: 13px;
+}
+
+.testimonials-bottom h4 {
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.testimonials-bottom p {
+
+    font-size: 11px;
+}
+
+}
+
+@media screen and (max-width:399px) {
+
+    .testimonials-container{
+        width: 248px;
+        height: 189px;
+    }
+
+    .testimonials-section {
+        height: 169px;
+        width: 287px;
+        margin: -6px 0px;
+        }
+
+}
