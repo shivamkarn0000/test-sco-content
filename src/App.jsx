@@ -23,6 +23,16 @@ function App() {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>React portfolio website !!</title>
     
+    
+    
+         <style>
+         {
+           font-family: 'Roboto', sans-serif;
+           margin: 0;
+           padding: 0;
+           overflow-x: hidden;
+        }
+         <style/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
         </Helmet>
         <div className="app scrollbar-hidden">
