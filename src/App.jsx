@@ -20,9 +20,9 @@ function App() {
         <Helmet>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>{React portfolio website !!}</title>
-         <meta name="google-site-verification" content="rdHgeMNE19n12zlkjsfSKFLDS23MuTFSHl8lQPesFHLk21oU"/>
-    
+          <title data-react-helmet="true">React portfolio website !!</title>
+         <meta name="google-site-verification" content="rdHgeMNE19n12zlkjsfSKFLDS23MuTFSHl8lQPesFHLk21oU"/>          
+        <meta data-react-helmet="true" name="desccription" content"MY OTHER PAGE CONTENT"/>
     
      
         </Helmet>
