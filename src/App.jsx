@@ -32,6 +32,7 @@ function App() {
            padding: 0;
            overflow-x: hidden;
         }
+         <style/>
         </Helmet>
         <div className="app scrollbar-hidden">
 
